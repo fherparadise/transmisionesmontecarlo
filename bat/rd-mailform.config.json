@@ -1,0 +1,8 @@
+{
+  "useSmtp": true,
+  "host": "smtp.nuestrosite.com",
+  "port": 465,
+  "username": "serviciotecnico@teqsa.com.mx",
+  "password": "Stecnico2021.",
+  "recipientEmail": "ventas@teqsa.com.mx"
+}

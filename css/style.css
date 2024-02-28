@@ -8845,7 +8845,7 @@ textarea.textarea-lg {
 
 .footer-corporate {
 	text-align: center;
-	background: #162e44;
+	background: #1406AD; /*COLOR footer*/
 }
 
 .footer-corporate h6 {
@@ -8986,9 +8986,9 @@ textarea.textarea-lg {
 	}
 }
 
-.footer-corporate-bottom-panel {
+.footer-corporate-bottom-panel {  /*color foter bottom */
 	padding: 30px 0;
-	background: #11263a;
+	background: #012CAE;
 	color: rgba(255, 255, 255, 0.3);
 }
 
@@ -12835,7 +12835,7 @@ html [class*='section-'].section-top-0 {
 * Light Backgrounds
 */
 .bg-default {
-	background-color: #ffffff;
+	background-color: #ffffff; /*background color */ 
 }
 
 .bg-gray-100 {
@@ -17334,6 +17334,7 @@ html.rd-navbar-fixed-linked .page {
 .rd-navbar-corporate.rd-navbar-static .rd-navbar-main-outer {
 	padding-left: 15px;
 	padding-right: 15px;
+	background: #ffffff;
 }
 
 .rd-navbar-corporate.rd-navbar-static .rd-navbar-aside,
@@ -17378,7 +17379,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-corporate.rd-navbar-static .rd-navbar-main-outer {
-	background: #162e44;
+	background: #1A0AAA;
 }
 
 .rd-navbar-corporate.rd-navbar-static .rd-navbar-nav-wrap {

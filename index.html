@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
@@ -173,12 +174,12 @@
         <br>
         <br>
         -->
-
+        <!-- SECCION DE MOTORES Y TRANSMISIONES -->
         <section class="section-75 section-md-120 section-lg-120 section-xl-150" id="custom-way-point">
             <div class="container">
                 <div class="row">
-                    <div class="col">
-                        <h2>Quiénes Somos</h2>
+                    <div class="col wow fadeInDown" data-wow-duration="2s">
+                        <h2>Motores</h2>
                         <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                             sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -186,11 +187,11 @@
                             consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <img class="img-responsive" src="images/somos.jpg" alt="" width="735" height="460" />
+                        <img class="img-responsive" src="images/motores.png" alt="" width="735" height="460" />
                     </div>
-        
-                    <div class="col">
-                        <h2>Quiénes Somos</h2>
+
+                    <div class="col wow slideInRight" data-wow-duration="2s">
+                        <h2>Transmisiones</h2>
                         <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                             sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -198,13 +199,14 @@
                             consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <img class="img-responsive" src="images/somos.jpg" alt="" width="735" height="460" />
+                        <img class="img-responsive" src="images/transmisiones.jpg" alt="" width="735" height="460" />
                     </div>
                 </div>
             </div>
         </section>
+        <!-- FIN SECCION DE MOTORES Y TRANSMISIONES -->
 
-        
+
 
         <br>
         <br>
@@ -345,6 +347,10 @@
     </div>
     <div class="snackbars" id="form-output-global"></div>
     <script src="js/core.min.js"></script>
+    <script src="js/WOW.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     <script src="js/script.js"></script>
     <!-- FIN FOOTER -->
 </body>

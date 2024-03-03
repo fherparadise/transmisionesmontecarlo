@@ -8845,7 +8845,7 @@ textarea.textarea-lg {
 
 .footer-corporate {
 	text-align: center;
-	background: #1406AD; /*COLOR footer*/
+	background: #162e44;
 }
 
 .footer-corporate h6 {
@@ -8986,9 +8986,9 @@ textarea.textarea-lg {
 	}
 }
 
-.footer-corporate-bottom-panel {  /*color foter bottom */
+.footer-corporate-bottom-panel {
 	padding: 30px 0;
-	background: #012CAE;
+	background: #11263a;
 	color: rgba(255, 255, 255, 0.3);
 }
 
@@ -12835,7 +12835,7 @@ html [class*='section-'].section-top-0 {
 * Light Backgrounds
 */
 .bg-default {
-	background-color: #ffffff; /*background color */ 
+	background-color: #ffffff;
 }
 
 .bg-gray-100 {
@@ -17334,7 +17334,6 @@ html.rd-navbar-fixed-linked .page {
 .rd-navbar-corporate.rd-navbar-static .rd-navbar-main-outer {
 	padding-left: 15px;
 	padding-right: 15px;
-	background: #ffffff;
 }
 
 .rd-navbar-corporate.rd-navbar-static .rd-navbar-aside,
@@ -17379,7 +17378,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-corporate.rd-navbar-static .rd-navbar-main-outer {
-	background: #1A0AAA;
+	background: #162e44;
 }
 
 .rd-navbar-corporate.rd-navbar-static .rd-navbar-nav-wrap {
@@ -25022,60 +25021,3 @@ img.mfp-img {
 	background: #62bfe6;
 	transition: .3s ease-in-out;
 }
-
-/* slider */
-* {
-	margin: 0;
-	padding: 9;
-	box-sizing: border-box;
-  }
-  
-  section {
-	position: relative;
-	/* width: 100%; */
-	height: 60vh;
-  }
-section video {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-  }
-  
-  section .navigation {
-	position: absolute;
-	bottom: 40px;
-	left: 50%;
-	transform: translateX(-50%);
-	z-index: 100;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-  }
-  
-  section .navigation li {
-	list-style: none;
-	cursor: pointer;
-	margin: 0 10px;
-	border-radius: 4px;
-	background: #fff;
-	padding: 3px 3px 0;
-	opacity: 0.7;
-	transition: 0.5s;
-  }
-  
-  section .navigation li:hover {
-	opacity: 1;
-  }
-  
-  section .navigation li img {
-	width: 120px;
-	transition: 0.5s;
-  }
-  
-  section .navigation li img:hover {
-	width: 200px;
-  }
-  

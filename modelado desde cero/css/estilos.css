@@ -1,0 +1,22 @@
+:root{
+    --blanco: #ffffff;
+    --negro: #212121;
+    --primario: #0772ff;
+    --secundario: #c9fce0;
+    --gris: #757575;
+}
+
+html {
+    font-size: 62.5%;    
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+body {
+    font-size: 16px; /*1 rem = 10px */
+    font-family: "Nunito", sans-serif;
+}

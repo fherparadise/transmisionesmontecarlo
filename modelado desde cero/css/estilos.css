@@ -3,20 +3,100 @@
     --negro: #212121;
     --primario: #0772ff;
     --secundario: #c9fce0;
-    --gris: #757575;
+    --gris: #fffdfd;
+    --rojo: #e70d0d;
+    --rojo-claro: #da431e;
 }
 
 html {
-    font-size: 62.5%;    
+    font-size: 62.5%;    /* esto es para poder usar rem en lugar de pixeles*/
     box-sizing: border-box;
 }
 
 *, *:before, *:after {
     box-sizing: inherit;
-}
+}                       /* hasta aqui lo de los rems*/
 
 
-body {
-    font-size: 16px; /*1 rem = 10px */
+body { /* fuente de toda la pagina  */
     font-family: "Nunito", sans-serif;
 }
+
+.cabecera{
+    font-size: 1.5rem; /* estilos de la clase header */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .cabecera{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.nav-principal{                         /* se usa el flex para ordenar*/ 
+    display: flex;   /* flexbox */
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .nav-principal{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.nav-principal a {
+    color: var(--blanco);
+    text-decoration: none;      /* estilos de los enlaces del nav principal */
+    font-size: 2rem;            /* dar espacio con padding y para ordenar y centrar */ 
+    font-weight: bold;
+    padding: 2rem;
+}
+
+/* eventos de css cuando se posicionan en los enlaces de la barra de nav*/
+
+.nav-principal a:hover {
+    background-color: var(--rojo-claro);
+    color: #757575; 
+}
+
+.nav-bg {
+    background-color: var(--primario);  /* color de fondo de la navegacion */
+}
+
+.head-bg{
+    
+    background-color: var(--gris);
+}
+
+.contenedor{
+    max-width: 120rem;      /* usar esta clase para centrar y dar margen con el contenedor */
+    margin: 0 auto 0 auto;
+}
+
+
+
+
+/* Para centrar el contendor */
+
+/*// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 1000
+
+Estilos de la fuente de google
+
+.nunito-<uniquifier> {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+medias query 480px telefono
+             768px tablet
+             1140px laptop
+             1400px pantalla   
+*/

@@ -1,82 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rokkitt:wght@206&display=swap" rel="stylesheet">
-    <title>Mecanica automotriz montecarlo -nosotros-</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- link a fuente de google -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+
+    <link rel="preload" href="css/normalize.css" as="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css"> <!-- normalize para adaptar a diferentes navegadores -->
+
+    <link rel="preload" href="css/estilos.css" as="stylesheet"> <!-- preload para optimizar la carga de estilos -->
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>Mecanica automotriz montecarlo</title>
 </head>
+
 <body>
-    <header>
-        <h1>Transmisiones automaticas montecarlo</h1>
-        <img src="img/logo1.png" alt="logo mont"><br>  
-        
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-alarm" width="64" height="64" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M12 13m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
-            <path d="M12 10l0 3l2 0" />
-            <path d="M7 4l-2.75 2" />
-            <path d="M17 4l2.75 2" />
-        </svg>
-        <p>horario de atencion</p>
-        <p>de lunes a viernes de 9 a 6 pm</p>
-    </header>
+    <div class="head-bg">
+        <header class="cabecera contenedor">
+            <li class="cabecera contenedor">
+                <ul>
+                    <img src="img/logo1.png" alt="logo mont"><br>
+                </ul>
+                <ul>
+                    <p>
+                        horario de atencion: de lunes a viernes de 9 a 6 pm
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-alarm" width="64"
+                            height="64" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M12 13m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                            <path d="M12 10l0 3l2 0" />
+                            <path d="M7 4l-2.75 2" />
+                            <path d="M17 4l2.75 2" />
+                        </svg>
+                    </p>
+                </ul>
+            </li>
+        </header>
+    </div>
 
-    <nav>
-        <a href="index.html">Inicio</a>
-        <a href="nosotros.html">Nosotros</a>
-        <a href="contacto.html">Contacto</a>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-at" width="64" height="64" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
-            <path d="M16 12v1.5a2.5 2.5 0 0 0 5 0v-1.5a9 9 0 1 0 -5.5 8.28" />
-        </svg>
-    </nav>
+    <div class="nav-bg">
+        <nav class="nav-principal contenedor">
+            <a href="index.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="swaps.html">Swaps</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </div>
 
-    <section>
-        <h2>Contacto</h2>
 
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-alarm" width="64" height="64"
-            viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round"
-            stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <path d="M12 13m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
-            <path d="M12 10l0 3l2 0" />
-            <path d="M7 4l-2.75 2" />
-            <path d="M17 4l2.75 2" />
-        </svg>
-        <p>telefonos</p>
-        <p>5514270248</p>
+    <section class="contacto">
 
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-alarm" width="64" height="64"
-            viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round"
-            stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <path d="M12 13m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
-            <path d="M12 10l0 3l2 0" />
-            <path d="M7 4l-2.75 2" />
-            <path d="M17 4l2.75 2" />
-        </svg>
-        <p>direccion</p>
-        <p>enrique segoviano</p>
+        <div class="contenido-contacto">
+            <h2>Contacto</h2>
 
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-alarm" width="64" height="64"
-            viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round"
-            stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <path d="M12 13m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
-            <path d="M12 10l0 3l2 0" />
-            <path d="M7 4l-2.75 2" />
-            <path d="M17 4l2.75 2" />
-        </svg>
-        <p>Correo de contacto</p>
-        <p>sinergia@correo.com.mx</p>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-alarm" width="64" height="64"
+                viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M12 13m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                <path d="M12 10l0 3l2 0" />
+                <path d="M7 4l-2.75 2" />
+                <path d="M17 4l2.75 2" />
+            </svg>
+            <p>telefonos</p>
+            <p>5514270248</p>
+
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-alarm" width="64" height="64"
+                viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M12 13m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                <path d="M12 10l0 3l2 0" />
+                <path d="M7 4l-2.75 2" />
+                <path d="M17 4l2.75 2" />
+            </svg>
+            <p>direccion</p>
+            <p>enrique segoviano</p>
+
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-alarm" width="64" height="64"
+                viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M12 13m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                <path d="M12 10l0 3l2 0" />
+                <path d="M7 4l-2.75 2" />
+                <path d="M17 4l2.75 2" />
+            </svg>
+            <p>Correo de contacto</p>
+            <p>sinergia@correo.com.mx</p>
+        </div>
+
     </section>
 
-    <section>
+
+
+    <section class="contenedor sombra">
         <h3>contactanos</h3>
 
         <form action="">
@@ -105,10 +129,13 @@
                 </div>
 
                 <div>
-                    <input type="submit" value="enviar">
+                    <input type="submit" value="enviar" class="boton">
                 </div>
             </fieldset>
         </form>
     </section>
+    <br>
+    
 </body>
+
 </html>

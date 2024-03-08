@@ -6,21 +6,75 @@
     --gris: #fffdfd;
     --rojo: #e70d0d;
     --rojo-claro: #da431e;
+    --grisClaro: #dfe9f3;
 }
 
 html {
-    font-size: 62.5%;    /* esto es para poder usar rem en lugar de pixeles*/
+    font-size: 62.5%;    /* box sizing*/
     box-sizing: border-box;
 }
 
 *, *:before, *:after {
     box-sizing: inherit;
-}                       /* hasta aqui lo de los rems*/
-
+}                       /* hasta aqui box sizing */
 
 body { /* fuente de toda la pagina  */
     font-family: "Nunito", sans-serif;
+    background-image: linear-gradient(to top, var(--grisClaro) 0%, var(--blanco) 20%); /* degradado de fondo */
 }
+
+.contenedor{
+    max-width: 120rem;      /* usar esta clase para centrar y dar margen con el contenedor */
+    margin: 0 auto 0 auto;
+}
+
+.sombra{
+    -webkit-box-shadow: 9px 3px 21px 1px rgba(0,0,0,0.66);
+    -moz-box-shadow: 9px 3px 21px 1px rgba(0,0,0,0.66);
+    box-shadow: 9px 3px 21px 1px rgba(0,0,0,0.66);
+    background-color: var(--blanco);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+
+h1{
+    font-size: 3.8rem;
+}
+
+h2{
+    font-size: 2.8rem;
+}
+
+h3{
+    font-size: 1.8rem;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+.boton{
+    background-color: var(--rojo-claro);
+    color: var(--blanco);
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    width: 90%;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .boton{
+        width: auto;
+    }
+}
+
+
 
 .cabecera{
     font-size: 1.5rem; /* estilos de la clase header */
@@ -69,17 +123,43 @@ body { /* fuente de toda la pagina  */
 }
 
 .head-bg{
-    
     background-color: var(--gris);
 }
 
-.contenedor{
-    max-width: 120rem;      /* usar esta clase para centrar y dar margen con el contenedor */
-    margin: 0 auto 0 auto;
+
+
+.contacto{ /* seccion contacto*/
+    background-image: url(../img/slide4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.contenido-contacto{
+    position: absolute;
+    background-color: rgba(0, 0, 0, .5);
+    background-color: rgb(0 0 0 / 50%);
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido-contacto h2,
+.contenido-contacto p{
+    color: var(--blanco);
+    font-size: 1.5rem;
 }
 
 
-
+.servicios{
+    display: grid;
+}
 
 /* Para centrar el contendor */
 

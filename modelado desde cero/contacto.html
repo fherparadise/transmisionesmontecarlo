@@ -103,34 +103,37 @@
     <section class="contenedor sombra">
         <h3>contactanos</h3>
 
-        <form action="">
+        <form action="" class="formulario">
             <fieldset>
                 <legend>
                     contactanos llenando el formulario
                 </legend>
-                <div>
-                    <label for="">Nombre</label>
-                    <input type="text" placeholder="nombre">
-                </div>
-
-                <div>
-                    <label for="">Telefono</label>
-                    <input type="tel">
-                </div>
-
-                <div>
-                    <label for="">correo</label>
-                    <input type="email" placeholder="correo">
-                </div>
-
-                <div>
-                    <label for="">mensaje</label>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                <div class="campos">
+                    <div class="campo">
+                        <label for="">Nombre</label>
+                        <input type="text" placeholder="nombre" class="input-text">
+                    </div>
+    
+                    <div class="campo">
+                        <label for="">Telefono</label>
+                        <input type="tel" class="input-text">
+                    </div>
+    
+                    <div class="campo">
+                        <label for="">correo</label>
+                        <input type="email" placeholder="correo" class="input-text">
+                    </div>
+    
+                    <div class="campo">
+                        <label for="">mensaje</label>
+                        <textarea name="" id="" cols="30" rows="10" class="input-text"></textarea>
+                    </div>
                 </div>
 
                 <div>
                     <input type="submit" value="enviar" class="boton">
                 </div>
+                
             </fieldset>
         </form>
     </section>

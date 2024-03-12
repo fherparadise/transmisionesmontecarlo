@@ -33,6 +33,27 @@ body { /* fuente de toda la pagina  */
     margin: 0 auto 0 auto;
 }
 
+@media (min-width: 768px) {
+    .servicios{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        column-gap: 3rem;
+    }
+}
+
+.transmisiones p{
+    width: auto;
+    align-items: center;
+    
+}
+
+.mecanica p{
+    width: auto;
+    align-items: center;
+    
+}
+
+
 .sombra{
     -webkit-box-shadow: 9px 3px 21px 1px rgba(0,0,0,0.66);
     -moz-box-shadow: 9px 3px 21px 1px rgba(0,0,0,0.66);
@@ -169,13 +190,7 @@ h1,h2,h3{
 }
 
 
-@media (min-width: 768px) {
-    .servicios{
-        display: grid;
-        grid-template-columns: 50% 50%;
-        column-gap: 5rem;
-    }
-}
+
 
 
 .formulario {
@@ -238,6 +253,7 @@ h1,h2,h3{
     border-radius: .5rem;
 
 }
+
 /* ESTILOS SLIDE */
 .slider {
 	width: 95%;
@@ -259,7 +275,7 @@ h1,h2,h3{
 }
 
 .slider img {
-	width: 100%;
+	width: auto;
 }
 
 @keyframes cambio {

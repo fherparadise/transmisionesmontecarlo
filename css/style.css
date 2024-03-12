@@ -21,6 +21,45 @@ blockquote {
 	margin: 0;
 }
 
+.map-container-2{
+	overflow:hidden;
+	padding-bottom:56.25%;
+	position:relative;
+	height:0;
+  }
+  
+.map-container-2 iframe{
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+
+.galeria-montecar{
+	display: flex;
+	width: 600px;
+	height: 430px;
+	margin: 0 auto 0 auto;
+}
+
+.galeria-montecar img{
+	width: 0px;
+	flex-grow: 1;
+	object-fit: cover;
+	opacity: .8;
+	transition: .5s ease;
+}
+
+.galeria-montecar img:hover{
+	cursor: crosshair;
+	width: 300px;
+	opacity: 1;
+	filter: contrast(120%);
+}
+
+
+
 input,
 button,
 select,
@@ -17378,7 +17417,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-corporate.rd-navbar-static .rd-navbar-main-outer {
-	background: #162e44;
+	background: #04248c;
 }
 
 .rd-navbar-corporate.rd-navbar-static .rd-navbar-nav-wrap {

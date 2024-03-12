@@ -239,103 +239,47 @@ h1,h2,h3{
 
 }
 /* ESTILOS SLIDE */
-.carrusel{
-    max-width: 1000rem;
-    margin: 0 auto 0 auto;
-}
-.contenedor-slide{
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background-color: var(--negro);
-}
-.slider input{
-    visibility: hidden;
-    display: none;
-}
-.botones-slide{
-    position: absolute;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    bottom: 50px;
-    gap: 10px;
+.slider {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
 }
 
-.botones-slide label{
-    width: 20px;
-    height: 20px;
-    background-color: var(--negro);
-    border-radius: 50px;
-    opacity: 0.5;
-    cursor: pointer;
-    z-index: 1;
-    transition: 300ms ease-in-out;
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 20s infinite alternate linear;
 }
 
-.botones-slide label:hover{
-    scale: 1.2;
-    opacity: 1;
+.slider li {
+	width: 100%;
+	list-style: none;
 }
 
-.slider input:nth-child(1):checked ~ .botones-slide label:nth-child(1),
-.slider input:nth-child(2):checked ~ .botones-slide label:nth-child(2), /* EFECTO A LOS BOTONES DEL SLIDE */
-.slider input:nth-child(3):checked ~ .botones-slide label:nth-child(3)
-{
-   opacity: 1;
-   scroll-margin: 1.2;
-   width: 40px;
+.slider img {
+	width: 100%;
 }
 
-.contenido{
-    position: relative;
-    width: 300vw; /* LAS IMAGENES OCUPARAN EL MAX DEL CONTENEDOR */
-    display: flex;
-    transition: 400MS ease-in-out;
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
 }
 
-.slide1, .slide2, .slide3{
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.slide1{
-    background-image: url(../img/slide1.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
-.slide2{
-    background-image: url(../img/slide3.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
-.slide3{
-    background-image: url(../img/slide4.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
-.slider input:nth-child(1):checked ~ .contenido{
-    left: 0;
-}
-
-.slider input:nth-child(2):checked ~ .contenido{
-    left: -100vw;
-}
-.slider input:nth-child(3):checked ~ .contenido{
-    left: -200vw;
-}
-@media(min-width: 1400px) {
-    .contenedor-slide{
-        width: 100vw;
-    }
-}
 
 /* FIN DE ESTILOS SLIDE */
 

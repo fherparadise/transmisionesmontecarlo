@@ -38,8 +38,8 @@ blockquote {
 
 .galeria-montecar{
 	display: flex;
-	width: 600px;
-	height: 430px;
+	width: 100vw;
+	height: 100vh;
 	margin: 0 auto 0 auto;
 }
 

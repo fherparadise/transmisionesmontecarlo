@@ -3,6 +3,58 @@
 * Trunk version 2.0.0
 */
 /** @group Base */
+
+body {
+	font-family: "Racing Sans One", sans-serif;
+  	font-style: normal;
+}
+
+.photo-gallery {
+	color:#313437;
+	background-color:#fff;
+  }
+  
+  .photo-gallery p {
+	color:#7d8285;
+  }
+  
+  .photo-gallery h2 {
+	font-weight:bold;
+	margin-bottom:40px;
+	padding-top:40px;
+	color:inherit;
+  }
+  
+  @media (max-width:767px) {
+	.photo-gallery h2 {
+	  margin-bottom:25px;
+	  padding-top:25px;
+	  font-size:24px;
+	}
+  }
+  
+  .photo-gallery .intro {
+	font-size:16px;
+	max-width:500px;
+	margin:0 auto 40px;
+  }
+  
+  .photo-gallery .intro p {
+	margin-bottom:0;
+  }
+  
+  .photo-gallery .photos {
+	padding-bottom:20px;
+  }
+  
+  .photo-gallery .item {
+	padding-bottom:30px;
+  }
+
+  
+
+
+
 a:focus,
 button:focus {
 	outline: none !important;
@@ -309,8 +361,8 @@ html p a:hover {
 * Typography
 */
 body {
-	font-family: "Montserrat", sans-serif, Arial, sans-serif;
-	font-size: 14px;
+	/*font-family: "Montserrat", sans-serif, Arial, sans-serif;
+	font-size: 14px;*/
 	line-height: 1.71429;
 	font-weight: 400;
 	letter-spacing: normal;

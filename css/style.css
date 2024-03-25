@@ -9,6 +9,12 @@ body {
   	font-style: normal;
 }
 
+.correopropio{
+	font-size: 16px;
+	justify-content: left;
+	box-size: 2rem;
+}
+
 .photo-gallery {
 	color:#313437;
 	background-color:#fff;
